@@ -5,20 +5,23 @@ import { About } from './components/About';
 import { News } from './components/News';
 import { NoMatch } from './components/NoMatch';
 import { NavigationBar } from './components/CustomNavbar';
+import { Layout } from './components/Layout';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Router>
-          <NavigationBar />
+        <NavigationBar />
+        <Layout>
+          <Router>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/news" component={News} />
               <Route component={NoMatch} />
             </Switch>
-        </Router>
+          </Router>
+        </Layout>
       </React.Fragment>
     );
   }
