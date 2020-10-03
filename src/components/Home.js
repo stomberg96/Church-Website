@@ -1,8 +1,18 @@
 import React from 'react'
+import styled from 'styled-components';
+
+const HomeTitle = styled.h2`
+    font-size: 2rem;
+`;
+
+const Section = styled.section`
+    padding: 2rem;
+    margin: 2rem;
+`;
 
 export const Home = () => (
-    <div>
-        <h2>Welcome to Holy Communion Anglican Church</h2>
+    <Section>
+        <HomeTitle>Welcome to Holy Communion Anglican Church</HomeTitle>
         <p>This is a sample website for our church</p>
-    </div>
+    </Section>
 )
