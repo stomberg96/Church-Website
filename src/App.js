@@ -7,7 +7,7 @@ import { Contact } from './components/Contact';
 import { NoMatch } from './components/NoMatch';
 import { NavigationBar } from './components/CustomNavbar';
 import { Layout } from './components/Layout';
-import { Jumbotron } from './components/Jumbotron';
+// import { Jumbotron } from './components/Jumbotron';
 
 class App extends Component {
   render() {

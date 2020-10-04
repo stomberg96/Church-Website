@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from '../assets/hcacLogo3.png';
+import SocialFollow from "./SocialFollow"
 
 const Styles = styled.div`
   .navbar {
@@ -33,6 +33,8 @@ const Styles = styled.div`
   .navbar-nav {
     margin-left: 10px
   }
+
+
 `;
 
 export const NavigationBar = () => (
@@ -51,6 +53,11 @@ export const NavigationBar = () => (
           <Nav.Item><Nav.Link href="/about">About</Nav.Link>  </Nav.Item>
           <Nav.Item><Nav.Link href="/news">News</Nav.Link> </Nav.Item>
           <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link> </Nav.Item>
+        </Nav>
+        <Nav className="ml-auto">
+          <Nav.Item><Nav.Link href="https://www.facebook.com/holycommunionri">
+            <SocialFollow />
+          </Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
