@@ -27,14 +27,16 @@ const Styles = styled.div`
     align-items: center;
   }
   .navbar-brand img {
-    height: 120px;
-    margin-left: 55px
+    height: 80px;
+    margin-left: 75px
   }
   .navbar-nav {
-    margin-left: 10px
+    margin-left: 0px
   }
 
-
+  a.follow {
+    margin-right: -570px
+  }
 `;
 
 export const NavigationBar = () => (
@@ -54,10 +56,13 @@ export const NavigationBar = () => (
           <Nav.Item><Nav.Link href="/news">News</Nav.Link> </Nav.Item>
           <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link> </Nav.Item>
         </Nav>
+        <a className="follow ml-auto">
+          Follow Us:
+      </a>
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link href="https://www.facebook.com/holycommunionri">
-            <SocialFollow />
-          </Nav.Link></Nav.Item>
+          <Nav.Item>
+              <SocialFollow />
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

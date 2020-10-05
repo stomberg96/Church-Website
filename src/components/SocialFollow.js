@@ -23,6 +23,12 @@ a.facebook {
 a.instagram {
   color: black;
 }
+a.youtube {
+  color: #eb3223;
+}
+h3 {
+  margin-right: 
+}
 `;
 
 
@@ -37,6 +43,10 @@ export default function SocialFollow() {
         <a href="https://www.instagram.com/holycommunionri"
           className="instagram social">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
+        </a>
+        <a href="https://www.youtube.com/channel/UC1r8y8bCJEzKB9Pkf6g3vPw?view_as=subscriber"
+          className="youtube social">
+          <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
       </div>
     </Styles>
