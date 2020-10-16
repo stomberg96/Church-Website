@@ -56,9 +56,6 @@ export const NavigationBar = () => (
           <Nav.Item><Nav.Link href="/news">News</Nav.Link> </Nav.Item>
           <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link> </Nav.Item>
         </Nav>
-        <a className="follow ml-auto">
-          Follow Us:
-      </a>
         <Nav className="ml-auto">
           <Nav.Item>
               <SocialFollow />

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube, faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 
 
