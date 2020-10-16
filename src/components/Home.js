@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import './Home.css';
 
 export const Home = () => (
@@ -7,12 +6,11 @@ export const Home = () => (
           <header class="masthead text-center text-white">
             <div class="masthead-content">
               <div class="container">
-                <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-                <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+                <h1 class="masthead-heading mb-0">Holy Communion Anglican Church</h1>
+                <h2 class="masthead-subheading mb-0">Service Sundays 5:00pm at Rocky Hill Grange in East Greenwich</h2>
+                <a href="/About" class="btn btn-primary btn-xl rounded-pill mt-5">About Us</a>
               </div>
             </div>
-        
           </header>
 
           <section>
