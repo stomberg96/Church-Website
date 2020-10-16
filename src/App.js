@@ -4,7 +4,6 @@ import { Home } from './components/Home';
 import { About } from './components/About';
 import { News } from './components/News';
 import { Contact } from './components/Contact';
-import { NoMatch } from './components/NoMatch';
 import { NavigationBar } from './components/CustomNavbar';
 import { Layout } from './components/Layout';
 // import { Jumbotron } from './components/Jumbotron';
